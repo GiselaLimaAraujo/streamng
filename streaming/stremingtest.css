@@ -1,0 +1,39 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+}
+
+.catalogo{
+    display: flex;
+    gap: 20px;
+}
+
+.catologo div{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.filme{
+    flex-direction:row;
+    flex-wrap: nowrap;
+}
+
+.catologo img{
+    width: 150px;
+    height: 150px;
+}
+
+.filme:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.serie:hover{
+     transform: scale(1.1);
+    transition: 0.5s;
+
+}
